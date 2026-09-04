@@ -101,3 +101,5 @@ footer{color:#c8cfcc}
 
 /* Keep the original logo visible while its paper background is cleaned up. */
 .site-header .brand img{opacity:1;mix-blend-mode:multiply}
+.trades-cta{display:flex;justify-content:center;margin:34px 0 0}
+.trades-cta .button-primary{background:var(--orange);color:#fff}
