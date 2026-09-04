@@ -1,0 +1,201 @@
+:root{--navy:#10232f;--navy-2:#0a1922;--orange:#f1682b;--cream:#f5f0e8;--paper:#fffdfa;--ink:#132832;--muted:#64737a;--line:#d9ddd9;--yellow:#f8c64e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif}a{color:inherit;text-decoration:none}.site-header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(24px,6vw,92px);position:absolute;z-index:10;width:100%;color:#fff}.brand{display:flex;align-items:center;gap:10px;font:800 25px/1 "Barlow Condensed",sans-serif;letter-spacing:.5px}.brand>span:last-child>span{color:var(--orange)}.brand-mark{display:grid;place-items:center;width:35px;height:35px;background:var(--orange);color:white;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);font-size:22px}.nav{display:flex;align-items:center;gap:34px;font-size:13px;font-weight:600}.nav a{transition:.2s}.nav a:hover{color:#ff8a52}.nav-cta{border:1px solid #ffffff66;padding:12px 17px}.menu-button{display:none;background:none;border:0}.hero{min-height:720px;background:var(--navy);color:white;display:grid;grid-template-columns:1.03fr .97fr;overflow:hidden}.hero-copy{padding:150px 5vw 90px max(6vw,calc((100vw - 1400px)/2));z-index:2}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:2.2px;font-size:11px;font-weight:800}.eyebrow{display:flex;align-items:center;gap:10px;color:#e2e7e8}.eyebrow span{width:29px;height:3px;background:var(--orange)}h1,h2,h3{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;margin:0;line-height:.95}h1{font-size:clamp(55px,6vw,91px);letter-spacing:-1.5px;margin:24px 0}h1 em{font-style:normal;color:var(--orange)}.hero-lead{font-size:17px;line-height:1.7;max-width:620px;color:#cad3d7}.hero-actions{display:flex;align-items:center;gap:30px;margin:34px 0}.button{border:0;display:inline-flex;align-items:center;justify-content:center;gap:30px;padding:17px 21px;text-transform:uppercase;font-weight:800;font-size:12px;letter-spacing:.7px;cursor:pointer}.button-primary{background:var(--orange);color:white;box-shadow:5px 5px 0 #b44215}.button-primary:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 #b44215}.text-link{font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:.7px;border-bottom:1px solid #ffffff55;padding:10px 0}.trust-row{display:flex;align-items:center;gap:14px;margin-top:45px}.avatars{display:flex}.avatars span{width:36px;height:36px;border-radius:50%;background:#d3af83;color:#1a2e39;border:2px solid var(--navy);margin-left:-7px;display:grid;place-items:center;font-size:10px;font-weight:800}.avatars span:first-child{margin-left:0;background:#d6dfe2}.avatars span:last-child{background:#e29b74}.trust-row p{font-size:11px;line-height:1.5;margin:0}.trust-row p span{color:#9cabb1}.hero-visual{position:relative;background:#d9dedb;min-height:720px;display:grid;place-items:center}.hero-visual:before{content:"";position:absolute;left:-1px;top:0;border-top:720px solid var(--navy);border-right:90px solid transparent}.tool-pattern{position:absolute;inset:0;opacity:.18;background-image:linear-gradient(30deg,transparent 48%,#89958e 49%,#89958e 51%,transparent 52%);background-size:80px 80px}.browser-card{width:min(570px,80%);background:white;box-shadow:0 24px 50px #23333a55;z-index:2;transform:rotate(-1deg)}.browser-bar{height:36px;background:#eef0ee;display:flex;align-items:center;gap:5px;padding:0 12px;color:#849096;font-size:9px}.browser-bar i{width:7px;height:7px;border-radius:50%;background:#b9c1be}.browser-bar span{margin-left:30%;background:white;padding:5px 35px}.mock-site{color:white;background:linear-gradient(90deg,#122a37ef,#122a37aa),linear-gradient(135deg,#567b83,#b9c4bd);min-height:355px}.mock-nav{display:flex;justify-content:space-between;padding:18px 25px;border-bottom:1px solid #ffffff20;font-size:14px}.mock-nav small{background:var(--yellow);color:#142c38;padding:6px 9px;font-weight:700}.mock-content{padding:55px 38px}.mock-content span{font-size:8px;letter-spacing:1.5px;color:#f5c959}.mock-content h2{font-size:37px;margin:12px 0}.mock-content p{font-size:10px}.mock-content button{background:#f4c44b;border:0;font-size:8px;font-weight:800;padding:12px 17px}.mock-badges{background:white;color:#24404b;display:flex;justify-content:space-around;padding:15px;font-size:8px;font-weight:700}.floating-card{position:absolute;z-index:3;background:white;color:var(--ink);box-shadow:0 10px 30px #20313a30;padding:15px 19px}.calls{top:25%;right:3%;display:flex;flex-direction:column}.calls b{font:800 25px "Barlow Condensed";color:var(--orange)}.calls span{font-size:9px}.live{bottom:19%;left:9%;font-size:10px;font-weight:700}.live i{display:inline-block;width:7px;height:7px;background:#2bb673;border-radius:50%;margin-right:7px}.proof-strip{display:grid;grid-template-columns:repeat(4,1fr);background:var(--cream);padding:29px 8vw}.proof-strip div{display:flex;align-items:center;justify-content:center;gap:10px;border-right:1px solid #ccd0cc}.proof-strip div:last-child{border:0}.proof-strip strong{font:800 27px "Barlow Condensed";color:var(--orange)}.proof-strip span{font-size:10px;text-transform:uppercase;font-weight:700;letter-spacing:.5px}.section{padding:100px max(6vw,calc((100vw - 1280px)/2))}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:45px}.section-heading h2,.price-copy h2,.contact h2{font-size:clamp(42px,5vw,66px)}.section-heading>p{max-width:460px;color:var(--muted);line-height:1.7;font-size:14px}.kicker{color:var(--orange);margin:0 0 14px}.trade-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line)}.trade-card{padding:34px 27px;border-right:1px solid var(--line);min-height:260px;transition:.2s}.trade-card:last-child{border:0}.trade-card:hover,.trade-card.featured{background:var(--navy);color:white;transform:translateY(-7px);box-shadow:0 12px 0 var(--orange)}.trade-icon{font-size:31px;display:block;margin-bottom:33px}.trade-card h3{font-size:29px}.trade-card p{font-size:12px;line-height:1.6;color:#78868c;min-height:40px}.trade-card:hover p,.trade-card.featured p{color:#bec8cc}.trade-card a{font-size:9px;text-transform:uppercase;font-weight:800;color:var(--orange)}.more-trades{text-align:center;color:#69777d;font-size:12px;margin-top:38px}.more-trades a{font-weight:700;color:var(--ink);border-bottom:2px solid var(--orange)}.process{background:var(--navy);color:white}.section-heading.light>p{color:#9babb2}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:60px}.steps article{position:relative;border-top:1px solid #ffffff35;padding-top:38px}.steps article>span{position:absolute;right:0;top:13px;font:800 54px "Barlow Condensed";color:#ffffff0d}.step-icon{width:52px;height:52px;background:var(--orange);display:grid;place-items:center;font-size:22px;margin-bottom:25px;box-shadow:5px 5px 0 #ffffff12}.steps h3{font-size:25px}.steps p{color:#99aab1;font-size:12px;line-height:1.7;max-width:285px}.pricing{background:var(--cream);display:grid;grid-template-columns:1fr .7fr;gap:10vw;align-items:center}.price-copy>p:not(.kicker){color:var(--muted);font-size:14px;line-height:1.7;max-width:540px}.price-copy ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:16px;font-size:11px;font-weight:700}.price-copy li:before{content:"✓";color:var(--orange);margin-right:8px}.price-card{background:white;border-top:7px solid var(--orange);box-shadow:12px 12px 0 #d9d3c9;padding:35px 42px;text-align:center}.price-label{font-size:10px;font-weight:800;letter-spacing:1.5px}.price{display:flex;justify-content:center;align-items:flex-start;margin-top:20px}.price sup{font-size:10px;margin-top:15px;text-transform:uppercase}.price strong{font:800 70px "Barlow Condensed"}.price-card>p{margin:-8px 0 25px;color:var(--muted);font-size:10px;text-transform:uppercase}.hosting{display:flex;justify-content:space-between;margin:22px 0;font-size:11px}.hosting strong{font-size:16px}.hosting span{color:var(--muted)}.price-card .button{width:100%}.price-card small{display:block;color:#869197;font-size:9px;margin-top:17px}.contact{display:grid;grid-template-columns:.85fr 1fr;gap:8vw;background:var(--orange);color:white}.contact>div>p:last-child{line-height:1.7;font-size:14px;color:#ffe0d2}.contact .kicker{color:var(--navy)}.lead-form{background:white;color:var(--ink);padding:34px;display:grid;grid-template-columns:1fr 1fr;gap:20px}.lead-form label{font-size:9px;text-transform:uppercase;font-weight:800;letter-spacing:.7px}.lead-form input,.lead-form select{display:block;width:100%;border:0;border-bottom:1px solid #cfd5d2;padding:12px 0;font:12px Inter;margin-top:3px;background:white}.lead-form .button,.form-status{grid-column:1/-1}.button-dark{background:var(--navy);color:white}.form-status{text-align:center;font-size:11px;margin:0;color:#258657}footer{background:var(--navy-2);color:#83949b;display:flex;align-items:center;gap:35px;padding:35px 6vw;font-size:10px}footer p{flex:1;border-left:1px solid #ffffff22;padding-left:30px}.footer-brand{color:white}footer small{text-transform:uppercase;letter-spacing:.5px}
+@media(max-width:900px){.site-header{padding:0 22px}.menu-button{display:flex;flex-direction:column;gap:5px;z-index:2}.menu-button span{display:block;background:#fff;width:25px;height:2px}.nav{display:none;position:absolute;top:70px;left:16px;right:16px;background:var(--navy-2);padding:25px;flex-direction:column;align-items:stretch}.nav.open{display:flex}.hero{grid-template-columns:1fr}.hero-copy{padding:130px 7vw 70px}.hero-visual{min-height:550px}.hero-visual:before{display:none}.proof-strip{grid-template-columns:1fr 1fr;gap:20px}.proof-strip div:nth-child(2){border:0}.section-heading{display:block}.trade-grid{grid-template-columns:1fr 1fr}.trade-card:nth-child(2){border-right:0}.trade-card:nth-child(-n+2){border-bottom:1px solid var(--line)}.pricing,.contact{grid-template-columns:1fr}.pricing{gap:50px}}
+@media(max-width:600px){h1{font-size:52px}.hero-actions{align-items:flex-start;flex-direction:column}.browser-card{width:89%}.floating-card{display:none}.mock-content{padding:42px 24px}.mock-content h2{font-size:29px}.proof-strip strong{font-size:23px}.proof-strip div{flex-direction:column;gap:2px;text-align:center}.section{padding:75px 22px}.trade-grid,.steps{grid-template-columns:1fr}.trade-card{border-right:0;border-bottom:1px solid var(--line)}.trade-card:last-child{border-bottom:0}.steps{gap:45px}.price-copy ul{grid-template-columns:1fr}.lead-form{grid-template-columns:1fr;padding:25px}.lead-form label{grid-column:1/-1}footer{align-items:flex-start;flex-direction:column;gap:15px}footer p{border:0;padding:0}.browser-bar span{margin-left:8%;padding:5px 18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* HandySites logo palette */
+:root{--navy:#343737;--navy-2:#202222;--orange:#a20d20;--cream:#f1eee8;--paper:#fffdfa;--ink:#2f3332;--muted:#686e6c;--line:#d7d5d0;--yellow:#b0192e}
+.brand img{width:58px;height:58px;object-fit:contain;background:#f7f5ef}
+.brand>span:last-child>span{color:#e54a59}
+.nav a:hover{color:#e54a59}
+.button-primary{box-shadow:5px 5px 0 #650714}
+.button-primary:hover{box-shadow:3px 3px 0 #650714}
+.mock-nav small,.mock-content button{background:var(--orange);color:#fff}
+.mock-content span{color:#f3a4ae}
+.calls b{font-size:18px;text-transform:uppercase}
+.lead-form .button,.form-status,.direct-email{grid-column:1/-1}
+.direct-email{text-align:center;margin:0;font-size:10px;text-transform:none;font-weight:500}
+.direct-email a{color:var(--orange);font-weight:800;text-decoration:underline}
+.footer-email{color:#fff;text-decoration:underline}
+
+/* High-contrast navigation and expanded benefits */
+.site-header{position:absolute;background:rgba(245,242,236,.98);color:var(--ink);border-bottom:1px solid #d3cec5;box-shadow:0 3px 14px #19191918}
+.site-header .brand img{background:transparent;mix-blend-mode:multiply}
+.site-header .brand>span:last-child>span{color:var(--orange)}
+.site-header .nav-cta{border-color:var(--orange);color:var(--orange)}
+.site-header .nav a:hover{color:var(--orange)}
+.menu-button span{background:var(--ink)}
+.benefits{background:var(--cream);padding:75px max(6vw,calc((100vw - 1280px)/2)) 85px}
+.benefits-heading{text-align:center;margin:0 auto 42px}
+.benefits-heading h2{font-size:clamp(38px,4vw,57px)}
+.proof-strip{padding:0;background:transparent;gap:16px}
+.proof-strip article{display:block;background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--orange);padding:27px 24px;min-height:230px}
+.proof-strip article:last-child{border:1px solid var(--line);border-top:5px solid var(--orange)}
+.proof-strip strong{display:block;font-size:33px;margin-bottom:14px}
+.proof-strip h3{font-size:23px;margin-bottom:13px;color:var(--ink)}
+.proof-strip p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+@media(max-width:900px){.site-header .nav{color:#fff}.site-header .nav-cta{color:#fff;border-color:#ffffff66}.proof-strip{grid-template-columns:1fr 1fr}.proof-strip article:nth-child(2){border-right:1px solid var(--line)}}
+@media(max-width:600px){.benefits{padding:65px 22px}.proof-strip{grid-template-columns:1fr}.proof-strip article{min-height:auto}.proof-strip div{display:block;text-align:left}}
+
+/* Price-first hero and readability pass */
+.hero-price{width:max-content;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:15px;margin:26px 0 4px;padding:13px 18px;background:#fff;color:var(--ink);border-left:6px solid var(--orange);box-shadow:6px 6px 0 #1e2020}
+.hero-price span{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.hero-price strong{grid-row:1/3;grid-column:2;font:800 45px/1 "Barlow Condensed",sans-serif;color:var(--orange)}
+.hero-price small{font-size:10px;font-weight:700;color:#4d5552;text-transform:uppercase}
+.hero-actions{margin-top:25px}
+.hero-lead{color:#f1f3f2}
+.trust-row p span{color:#d9dfdd}
+.section-heading>p,.price-copy>p:not(.kicker),.proof-strip p{color:#4d5552}
+.trade-card p{color:#515b58}
+.trade-card:hover p,.trade-card.featured p{color:#edf0ef}
+.section-heading.light>p,.steps p{color:#d5dcda}
+.contact .kicker{color:#fff}
+.contact>div>p:last-child{color:#fff}
+.price-card>p,.price-card small,.hosting span{color:#4d5552}
+footer{color:#c8cfcc}
+.site-header .brand img{opacity:0;mix-blend-mode:normal;background:transparent}
+.site-header .brand img.is-processed{opacity:1}
+@media(max-width:600px){.hero-price{width:100%;max-width:330px}.hero-price strong{font-size:40px}}
+
+/* Honest job-value comparison */
+.trade-card{min-height:365px;display:flex;flex-direction:column}
+.trade-card>a{margin-top:auto}
+.job-value{margin:15px 0 22px;padding:13px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.job-value span,.job-value small{display:block;font-size:9px;line-height:1.45;color:#59625f}
+.job-value span{text-transform:uppercase;font-weight:800;letter-spacing:.6px}
+.job-value strong{display:block;margin:4px 0;font:800 27px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;color:var(--orange)}
+.trade-card:hover .job-value{border-color:#ffffff35}
+.trade-card:hover .job-value span,.trade-card:hover .job-value small{color:#e5e9e7}
+.value-note{text-align:center;max-width:760px;margin:32px auto 0;color:#4d5552;font-size:10px;line-height:1.6}
+.value-note+.more-trades{margin-top:14px}
+
+.steps article>span{color:#ffffff38}
+
+/* Client website mockup base styles */
+.browser-card{width:min(600px,84%)}
+.browser-bar span{margin-left:auto;margin-right:auto;padding:5px 24px;color:#49545b;font-weight:600}
+.mock-site{background:linear-gradient(90deg,#092b4cef,#0a3d68d9),linear-gradient(135deg,#4b7187,#c7d5d9);min-height:420px}
+.mock-nav{background:#082946;border-bottom-color:#ffffff30}
+.mock-nav b{color:#fff;letter-spacing:.4px}
+.mock-nav small{background:#f2b632;color:#092b4c}
+.mock-content{padding:38px 38px 28px}
+.mock-content span{color:#ffd56f}
+.mock-content h2{font-size:35px}
+.mock-content p{max-width:430px;font-size:10px;line-height:1.6;color:#eef6fa}
+.mock-content button{background:#f2b632;color:#092b4c}
+.mock-actions{display:flex;align-items:center;gap:16px;margin-top:17px}
+.mock-actions a{font-size:8px;font-weight:800;color:#fff;border-bottom:1px solid #ffffff80;padding:6px 0}
+.mock-services{display:grid;grid-template-columns:repeat(3,1fr);background:#f5f8fa;color:#0a3559;border-top:4px solid #f2b632}
+.mock-services div{padding:13px 15px;border-right:1px solid #d8e1e5}
+.mock-services div:last-child{border:0}
+.mock-services b,.mock-services span{display:block}
+.mock-services b{font:800 12px "Barlow Condensed",sans-serif;text-transform:uppercase}
+.mock-services span{font-size:7px;color:#536873;margin-top:3px}
+.mock-badges{background:#0b3558;color:#fff;padding:11px;font-size:7px;text-transform:uppercase;letter-spacing:.3px}
+@media(max-width:600px){.mock-content{padding:30px 20px 22px}.mock-content h2{font-size:27px}.mock-actions a{display:none}.mock-services div{padding:10px 7px}.mock-services span{display:none}.mock-badges span:nth-child(2){display:none}}
+
+/* Evergreen Landscaping client example */
+.browser-card{border-radius:7px;overflow:hidden;box-shadow:0 28px 65px #1c272b66;transform:rotate(-.35deg)}
+.browser-bar{height:38px}
+.mock-site{background:linear-gradient(90deg,#173a2fee,#285646d8),linear-gradient(135deg,#54745a,#bdc7ac)}
+.mock-nav{background:#17372d;padding:19px 27px}
+.mock-nav b{font-family:"Barlow Condensed",sans-serif;letter-spacing:1px}
+.leaf-mark{display:inline-block;color:#d6a64b;font-style:normal;font-size:11px;transform:rotate(45deg);margin-right:5px}
+.mock-nav small{background:#d7a94d;color:#17372d;border-radius:2px;letter-spacing:.3px}
+.mock-content{padding:39px 40px 30px}
+.mock-content span{color:#f1ce87}
+.mock-content h2{font-size:36px;letter-spacing:.15px;margin:13px 0}
+.mock-content p{max-width:455px;line-height:1.7}
+.mock-content button{background:#d7a94d;color:#17372d;border-radius:2px;letter-spacing:.3px}
+.mock-services{background:#fbfaf6;color:#1d4437;border-top-color:#d7a94d}
+.mock-services div{padding:14px 17px}
+.mock-services b{font-size:12px;letter-spacing:.25px}
+.mock-services span{font-size:7.5px;color:#596b63}
+.mock-badges{background:#1d4437;color:#f7f4eb}
+
+/* Make direct contact details easy to spot */
+.direct-email{font-size:13px;line-height:1.6}
+.direct-email a{font-size:15px;display:inline-block;margin-left:3px}
+.footer-email{font-size:13px;font-weight:700;letter-spacing:.15px}
+
+/* Landscaping-focused HandySites theme */
+:root{
+  --navy:#183f32;
+  --navy-2:#0d2920;
+  --orange:#2f7a50;
+  --cream:#eef5ef;
+  --paper:#ffffff;
+  --ink:#17372c;
+  --muted:#4b6259;
+  --line:#cfddd3;
+  --yellow:#8daf68;
+}
+body{background:#fff}
+.site-header{background:rgba(255,255,255,.98);border-bottom-color:#d5e0d8}
+.site-header .brand img.is-processed{filter:hue-rotate(115deg) saturate(.72) brightness(.82)}
+.brand>span:last-child>span,.site-header .brand>span:last-child>span{color:#2f7a50}
+.button-primary{background:#2f7a50;box-shadow:5px 5px 0 #174b32}
+.button-primary:hover{box-shadow:3px 3px 0 #174b32}
+.contact{background:#2f7a50}
+.contact .kicker{color:#fff}
+.price-card{border-top-color:#2f7a50;box-shadow:12px 12px 0 #c9d9ce}
+.trade-card:hover{box-shadow:0 12px 0 #78a883}
+.proof-strip article,.proof-strip article:last-child{border-top-color:#2f7a50}
+.step-icon{background:#3b8059}
+.hero-price{border-left-color:#4d976b;box-shadow:6px 6px 0 #0d2920}
+.hero-price strong,.job-value strong,.proof-strip strong,.kicker{color:#2f7a50}
+.direct-email a{color:#21633f}
+.leaf-mark{color:#b9d6be}
+.mock-nav small,.mock-content button{background:#dcecdf;color:#17372d}
+.mock-content span{color:#d6ead9}
+.mock-services{border-top-color:#78a883}
+
+/* Full landscaping visual direction */
+:root{
+  --navy:#164a32;
+  --navy-2:#0b3423;
+  --orange:#4d9a61;
+  --cream:#f1f8f1;
+  --paper:#ffffff;
+  --ink:#173c29;
+  --muted:#4b6b59;
+  --line:#cfe2d3;
+  --yellow:#a9d18e;
+}
+body{background:#f7fbf7}
+.site-header{background:#fff;color:var(--ink);border-bottom:1px solid #d9e9dc;box-shadow:0 2px 15px #174a2912}
+.site-header .nav-cta{background:#edf7ef;border-color:#4d9a61;color:#1d6d3d}
+.site-header .nav-cta:hover{background:#4d9a61;color:#fff}
+.hero{background:radial-gradient(circle at 88% 22%,#75b76e 0 7%,transparent 7.3%),radial-gradient(circle at 76% 78%,#4b965d 0 11%,transparent 11.3%),linear-gradient(130deg,#0f3d29 0%,#1e623d 58%,#438b54 100%)}
+.hero-copy{position:relative}
+.hero-copy:after{content:"";position:absolute;z-index:-1;width:310px;height:310px;right:1%;bottom:2%;border:1px solid #ffffff1c;border-radius:48% 52% 43% 57% / 55% 44% 56% 45%;transform:rotate(-25deg)}
+.hero h1 em{color:#c4e8a8}
+.hero-lead{color:#f1faef}
+.eyebrow{color:#e8f6e9}.eyebrow span{background:#b8df98}
+.button-primary{background:#fff;color:#1d6d3d;box-shadow:5px 5px 0 #0d3b26}
+.button-primary:hover{background:#eaf6e9;color:#164a32;box-shadow:3px 3px 0 #0d3b26}
+.hero-price{background:#f8fff7;border-left-color:#9dd27e;box-shadow:6px 6px 0 #0c3925}
+.hero-price strong{color:#2e7d45}
+.text-link{border-bottom-color:#ffffff80}
+.hero-visual{background:linear-gradient(135deg,#dbead9,#afcfaa)}
+.tool-pattern{opacity:.25;background-image:radial-gradient(#408353 1.5px,transparent 1.8px);background-size:20px 20px}
+.proof-strip article{background:#fff;border-top-color:#68a876;box-shadow:0 8px 22px #1e63340d}
+.benefits{background:linear-gradient(180deg,#eff8ef,#f9fcf9)}
+.section{background:#fff}
+.services{background:#fff}
+.trade-grid{border-color:#d5e6d8}.trade-card{border-color:#d5e6d8;background:#fff}.trade-card:hover{background:#235b3d;box-shadow:0 11px 0 #a9d18e}.trade-card a{color:#237440}
+.job-value strong{color:#2c7d46}.trade-card:hover .job-value strong{color:#c5eca7}
+.process{background:linear-gradient(135deg,#0f3d29,#215c3c)}
+.step-icon{background:#75b66d;color:#103c28;box-shadow:5px 5px 0 #ffffff1a}.steps article>span{color:#bde4a03d}
+.pricing{background:#eef7ee}.price-card{box-shadow:12px 12px 0 #cce0cf;border-top-color:#4d9a61}.price-card .button-primary{background:#2e7d45;color:#fff;box-shadow:5px 5px 0 #174d2e}.price-card .button-primary:hover{background:#236e3b;color:#fff}
+.contact{background:linear-gradient(120deg,#2f7d49,#62a866)}
+.contact .kicker{color:#e9f9df}.button-dark{background:#123f2a}.footer-email{color:#d5f1d6}
+
+/* Summit Electric client example: intentionally independent blue-and-gold brand */
+.mock-site{background:linear-gradient(90deg,#082b4cef,#0b426fd9),linear-gradient(135deg,#4c7288,#c3d2d8)}
+.mock-nav{background:#082946}
+.mock-nav b{color:#fff}.mock-nav small{background:#f2b632;color:#092b4c}
+.mock-content span{color:#ffd56f}.mock-content button{background:#f2b632;color:#092b4c}
+.mock-services{background:#f5f8fa;color:#0a3559;border-top-color:#f2b632}
+.mock-services span{color:#536873}
+.mock-badges{background:#0b3558;color:#fff}
