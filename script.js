@@ -43,7 +43,12 @@ const makeLogoTransparent = () => {
   }
 
   context.putImageData(image, 0, 0);
-  brandLogo.src = canvas.toDataURL('image/png');
+  const transparentLogo = canvas.toDataURL('image/png');
+  brandLogo.src = transparentLogo;
+  document.querySelectorAll('.brand-logo-copy').forEach(logo => {
+    logo.src = transparentLogo;
+    logo.classList.add('is-processed');
+  });
   brandLogo.classList.add('is-processed');
 };
 

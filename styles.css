@@ -199,3 +199,49 @@ body{background:#f7fbf7}
 .mock-services{background:#f5f8fa;color:#0a3559;border-top-color:#f2b632}
 .mock-services span{color:#536873}
 .mock-badges{background:#0b3558;color:#fff}
+
+/* HandySites brand palette — matched to the original logo */
+:root{
+  --navy:#353838;
+  --navy-2:#202222;
+  --orange:#a20d20;
+  --cream:#f3f0eb;
+  --paper:#ffffff;
+  --ink:#2c3030;
+  --muted:#596160;
+  --line:#d9d8d3;
+  --yellow:#b0192e;
+}
+body{background:#fff}
+.site-header{background:#fff;color:#2c3030;border-bottom-color:#dedbd6;box-shadow:0 2px 15px #20202014}
+.site-header .brand img,.site-header .brand img.is-processed{opacity:1;filter:none;mix-blend-mode:multiply;background:transparent}
+.brand>span:last-child>span,.site-header .brand>span:last-child>span{color:#a20d20}
+.site-header .nav-cta{background:#fff;border-color:#a20d20;color:#a20d20}
+.site-header .nav-cta:hover{background:#a20d20;color:#fff}
+.site-header .nav a:hover{color:#a20d20}
+.hero{background:linear-gradient(125deg,#202222 0%,#353838 62%,#555858 100%)}
+.hero-copy:after{border-color:#ffffff16;border-radius:0;transform:rotate(12deg)}
+.hero h1 em{color:#d83b4d}
+.hero-lead{color:#f1f2f1}.eyebrow{color:#eceeed}.eyebrow span{background:#c51b30}
+.button-primary{background:#a20d20;color:#fff;box-shadow:5px 5px 0 #5f0712}
+.button-primary:hover{background:#8c0b1b;color:#fff;box-shadow:3px 3px 0 #5f0712}
+.hero-price{background:#fff;border-left-color:#a20d20;box-shadow:6px 6px 0 #191b1b}
+.hero-price strong{color:#a20d20}
+.hero-visual{background:linear-gradient(135deg,#e4e3df,#c5c8c5)}
+.tool-pattern{opacity:.18;background-image:linear-gradient(30deg,transparent 48%,#7d8380 49%,#7d8380 51%,transparent 52%);background-size:80px 80px}
+.benefits{background:linear-gradient(180deg,#f1efea,#fbfaf8)}
+.proof-strip article{border-top-color:#a20d20;box-shadow:0 8px 22px #2424240d}
+.trade-card:hover{background:#353838;box-shadow:0 11px 0 #a20d20}
+.trade-card a,.job-value strong,.proof-strip strong,.kicker{color:#a20d20}
+.trade-card:hover .job-value strong{color:#f27b88}
+.process{background:linear-gradient(135deg,#202222,#3c4040)}
+.step-icon{background:#a20d20;color:#fff}.steps article>span{color:#ffffff38}
+.pricing{background:#f1efea}.price-card{border-top-color:#a20d20;box-shadow:12px 12px 0 #d7d3cc}
+.price-card .button-primary{background:#a20d20;color:#fff;box-shadow:5px 5px 0 #5f0712}
+.price-card .button-primary:hover{background:#8c0b1b}
+.contact{background:linear-gradient(120deg,#8f0b1c,#b7192d)}
+.contact .kicker{color:#fff}.button-dark{background:#292c2c}
+.direct-email a{color:#8f0b1c}.footer-email{color:#fff}
+.brand-logo-copy{width:58px;height:58px;object-fit:contain;opacity:0;background:transparent}
+.brand-logo-copy.is-processed{opacity:1}
+.footer-brand .brand-logo-copy{mix-blend-mode:normal}
